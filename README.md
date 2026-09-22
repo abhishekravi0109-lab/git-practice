@@ -21,3 +21,7 @@ Deploy a Spring Boot application using GitHub and AWS.
 - git push
 
   This line was added directly from GitHub.
+  
+  ## Day 3
+
+Learning how to inspect and undo Git changes.
