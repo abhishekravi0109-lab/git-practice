@@ -25,3 +25,7 @@ Deploy a Spring Boot application using GitHub and AWS.
   ## Day 3
 
 Learning how to inspect and undo Git changes.
+
+## Unfinished Day 7 Work
+
+Git stash temporarily stores unfinished changes.
