@@ -1,27 +1,29 @@
 # Git Practice
 
-I am learning Git and GitHub for Java development.
+A practical repository for learning Git, GitHub collaboration and CI/CD.
 
-## Current skills
+## Technologies
 
+- Git
+- GitHub
+- GitHub Actions
 - Java
 - Spring Boot
-- MySQL
-## Goal
+- AWS
 
-Deploy a Spring Boot application using GitHub and AWS.
+## Learning objectives
 
-## Git commands learned
+- Track source-code changes using Git
+- Work with branches and pull requests
+- Collaborate through GitHub
+- Build a CI/CD pipeline
+- Deploy a Spring Boot application to AWS
 
-- git init
-- git status
-- git add
-- git commit
-- git log
-- git push
+## Basic workflow
 
-  This line was added directly from GitHub.
-  
-  ## Day 3
-
-Learning how to inspect and undo Git changes.
+```bash
+git pull
+git switch -c feature-name
+git add .
+git commit -m "Describe the change"
+git push -u origin feature-name
