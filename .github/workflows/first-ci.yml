@@ -24,7 +24,7 @@ jobs:
         run: ls -la
 
       - name: Check README exists
-        run: test -f README.md
+        run: test -f FILE-THAT-DOES-NOT-EXIST.md
 
       - name: Display success message
         run: echo "Repository validation completed successfully"
