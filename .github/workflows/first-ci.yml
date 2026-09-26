@@ -1,0 +1,30 @@
+name: First CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  validate-repository:
+    name: Validate Repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository code
+        uses: actions/checkout@v6
+
+      - name: Display repository files
+        run: ls -la
+
+      - name: Check README exists
+        run: test -f README.md
+
+      - name: Display success message
+        run: echo "Repository validation completed successfully"
