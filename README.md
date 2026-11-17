@@ -11,3 +11,7 @@ I am learning Git and GitHub for Java development.
 ## Goal
 
 Deploy a Spring Boot application using GitHub and AWS.
+
+## Day 3
+
+Learning how to inspect and undo Git changes.
