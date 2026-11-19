@@ -1,3 +1,1 @@
 Learning how to correct Git mistakes.
-
-Git automatically uploads every commit to GitHub.
